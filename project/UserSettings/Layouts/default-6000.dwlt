@@ -341,8 +341,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Tile Palette\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1306.6667
-    y: 78.66667
+    x: 1307.6666
+    y: 24
     width: 399
     height: 787.3333
   m_SerializedDataModeController:
@@ -422,7 +422,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 42.666668
+    y: 0
     width: 1706.6666
     height: 36
   m_SerializedDataModeController:
@@ -688,7 +688,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 545.3334
+    y: 490.66666
     width: 1305.6666
     height: 320.66666
   m_SerializedDataModeController:
@@ -737,10 +737,7 @@ MonoBehaviour:
     - m_Data: 77544
     m_LastClickedID:
       m_Data: 77544
-    m_ExpandedIDs:
-    - m_Data: 0
-    - m_Data: 77544
-    - m_Data: 1000000000
+    m_ExpandedIDs: []
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -771,9 +768,7 @@ MonoBehaviour:
     m_SelectedIDs: []
     m_LastClickedID:
       m_Data: 0
-    m_ExpandedIDs:
-    - m_Data: 0
-    - m_Data: 77544
+    m_ExpandedIDs: []
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -908,7 +903,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 78.66667
+    y: 24
     width: 321.66666
     height: 440.66666
   m_SerializedDataModeController:
@@ -978,8 +973,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 322.6667
-    y: 78.66667
+    x: 323.66666
+    y: 24
     width: 982
     height: 440.66666
   m_SerializedDataModeController:
@@ -1456,7 +1451,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: -3.5839734, y: -0.35159668, z: -0.020508125}
     speed: 2
-    m_Value: {x: -3.6716602, y: -0.36283854, z: -0.025162324}
+    m_Value: {x: -3.5839734, y: -0.35159668, z: -0.020508125}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1508,7 +1503,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 9.877091
     speed: 2
-    m_Value: 10.3425045
+    m_Value: 9.877091
   m_Ortho:
     m_Target: 1
     speed: 2
