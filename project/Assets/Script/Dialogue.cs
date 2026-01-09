@@ -21,7 +21,8 @@ public class Dialogue : MonoBehaviour
     void OnEnable()
     {
         // Disable player movement when dialogue starts
-        if (player != null) player.canMove = false;
+        if (player != null) 
+            player.canMove = false;
 
         textComponent.text = string.Empty;
         StartNextLine();
@@ -86,7 +87,8 @@ public class Dialogue : MonoBehaviour
             StopTypingSound();
 
             // Restore player movement
-            if (player != null) player.canMove = true;
+            if (player != null) 
+                player.canMove = true;
 
             // Destroy dialogue box
             Destroy(gameObject);

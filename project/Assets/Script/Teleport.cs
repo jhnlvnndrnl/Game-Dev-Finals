@@ -15,12 +15,12 @@ public class TeleportBlink : MonoBehaviour
             // Teleport player
             other.transform.position = teleportPosition;
 
-            // Stop player movement temporarily
-            PlayerControl pc = other.GetComponent<PlayerControl>();
-            if (pc != null)
-            {
-                pc.DisableMovement(walkDelay + blinkCount * blinkSpeed * 2);
-            }
+            // // Stop player movement temporarily
+            // PlayerControl pc = other.GetComponent<PlayerControl>();
+            // if (pc != null)
+            // {
+            //     pc.DisableMovement(walkDelay + blinkCount * blinkSpeed * 2);
+            // }
 
             // Blink effect
             SpriteRenderer sr = other.GetComponent<SpriteRenderer>();
